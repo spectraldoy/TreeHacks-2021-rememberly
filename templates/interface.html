@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Rememberly</title>
+</head>
+<body>
+        <h1 style="text-align:center">Rememberly</h1>
+
+        <h2 style="text-align:center">What is Rememberly?</h2>
+        <P style="text-align:center"> In the world of science fiction, AI systems execute esoteric simulations to anticipate and react to your every thought and move - the stuff of nightmares. With our project, we imagine how such a system might work in the context of education - anticipating where learners might need extra attention, and addressing that need efficiently. We prototype an end-to-end platform that integrates a computational cognitive model of reading comprehension with cutting-edge machine learning for natural language processing to:<br>
+        <ol>
+                <li>Preprocess any arbitrary text for simulation in our cognitive model</li>
+                <li>Predict the representations of the text that readers might build as they read it, identifying potential knowledge gaps</li>
+                <li>Annotate the text with supplementary explanations and resources to address anticipated gaps and optimize for educational outcomes</li>
+                <li>Explain the basis of our recommendations with beautiful, interactive landscape visualizations of model state evolution across the course of simulation</li>
+                <li>Validate and update model parameters using data collected across diverse experimental contexts</li>
+        </ol>
+        <h2 style="text-align:center">Enter text to Analyze</h2>
+        <form action="/" method="POST">
+                <p style="text-align:center">
+                <textarea name="inputText" rows="10" cols="100"> </textarea></br>
+                <input type=submit value=Submit></br>
+                </p>
+        </form>
+</body>
+</html>
